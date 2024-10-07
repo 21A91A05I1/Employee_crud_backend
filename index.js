@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.get('/',(req,res)=>{
     res.send('Hello world');
-    })
+})
     
 
 mongoose.connect("mongodb+srv://merntest:merntest@cluster0.oiwkp0e.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(
